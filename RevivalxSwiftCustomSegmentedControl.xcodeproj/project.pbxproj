@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A9BBFB1BB168950015985C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A9BBFA1BB168950015985C /* AppDelegate.swift */; };
+		16A9BBFE1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16A9BBFC1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodeld */; };
+		16A9BC001BB168950015985C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A9BBFF1BB168950015985C /* ViewController.swift */; };
+		16A9BC031BB168950015985C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A9BC011BB168950015985C /* Main.storyboard */; };
+		16A9BC051BB168950015985C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A9BC041BB168950015985C /* Images.xcassets */; };
+		16A9BC081BB168950015985C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A9BC061BB168950015985C /* LaunchScreen.xib */; };
+		16A9BC141BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A9BC131BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A9BC0E1BB168960015985C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A9BBED1BB168950015985C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A9BBF41BB168950015985C;
+			remoteInfo = RevivalxSwiftCustomSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A9BBF51BB168950015985C /* RevivalxSwiftCustomSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevivalxSwiftCustomSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A9BBF91BB168950015985C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A9BBFA1BB168950015985C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16A9BBFD1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RevivalxSwiftCustomSegmentedControl.xcdatamodel; sourceTree = "<group>"; };
+		16A9BBFF1BB168950015985C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16A9BC021BB168950015985C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16A9BC041BB168950015985C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16A9BC071BB168950015985C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16A9BC0D1BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxSwiftCustomSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A9BC121BB168960015985C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A9BC131BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxSwiftCustomSegmentedControlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A9BBF21BB168950015985C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A9BC0A1BB168960015985C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A9BBEC1BB168950015985C = {
+			isa = PBXGroup;
+			children = (
+				16A9BBF71BB168950015985C /* RevivalxSwiftCustomSegmentedControl */,
+				16A9BC101BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests */,
+				16A9BBF61BB168950015985C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A9BBF61BB168950015985C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A9BBF51BB168950015985C /* RevivalxSwiftCustomSegmentedControl.app */,
+				16A9BC0D1BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A9BBF71BB168950015985C /* RevivalxSwiftCustomSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				16A9BBFA1BB168950015985C /* AppDelegate.swift */,
+				16A9BBFF1BB168950015985C /* ViewController.swift */,
+				16A9BC011BB168950015985C /* Main.storyboard */,
+				16A9BC041BB168950015985C /* Images.xcassets */,
+				16A9BC061BB168950015985C /* LaunchScreen.xib */,
+				16A9BBFC1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodeld */,
+				16A9BBF81BB168950015985C /* Supporting Files */,
+			);
+			path = RevivalxSwiftCustomSegmentedControl;
+			sourceTree = "<group>";
+		};
+		16A9BBF81BB168950015985C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16A9BBF91BB168950015985C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16A9BC101BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				16A9BC131BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.swift */,
+				16A9BC111BB168960015985C /* Supporting Files */,
+			);
+			path = RevivalxSwiftCustomSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		16A9BC111BB168960015985C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16A9BC121BB168960015985C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A9BBF41BB168950015985C /* RevivalxSwiftCustomSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A9BC171BB168960015985C /* Build configuration list for PBXNativeTarget "RevivalxSwiftCustomSegmentedControl" */;
+			buildPhases = (
+				16A9BBF11BB168950015985C /* Sources */,
+				16A9BBF21BB168950015985C /* Frameworks */,
+				16A9BBF31BB168950015985C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevivalxSwiftCustomSegmentedControl;
+			productName = RevivalxSwiftCustomSegmentedControl;
+			productReference = 16A9BBF51BB168950015985C /* RevivalxSwiftCustomSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A9BC0C1BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A9BC1A1BB168960015985C /* Build configuration list for PBXNativeTarget "RevivalxSwiftCustomSegmentedControlTests" */;
+			buildPhases = (
+				16A9BC091BB168960015985C /* Sources */,
+				16A9BC0A1BB168960015985C /* Frameworks */,
+				16A9BC0B1BB168960015985C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A9BC0F1BB168960015985C /* PBXTargetDependency */,
+			);
+			name = RevivalxSwiftCustomSegmentedControlTests;
+			productName = RevivalxSwiftCustomSegmentedControlTests;
+			productReference = 16A9BC0D1BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A9BBED1BB168950015985C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nurdin Norazan Services";
+				TargetAttributes = {
+					16A9BBF41BB168950015985C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					16A9BC0C1BB168960015985C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 16A9BBF41BB168950015985C;
+					};
+				};
+			};
+			buildConfigurationList = 16A9BBF01BB168950015985C /* Build configuration list for PBXProject "RevivalxSwiftCustomSegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A9BBEC1BB168950015985C;
+			productRefGroup = 16A9BBF61BB168950015985C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A9BBF41BB168950015985C /* RevivalxSwiftCustomSegmentedControl */,
+				16A9BC0C1BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A9BBF31BB168950015985C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A9BC031BB168950015985C /* Main.storyboard in Resources */,
+				16A9BC081BB168950015985C /* LaunchScreen.xib in Resources */,
+				16A9BC051BB168950015985C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A9BC0B1BB168960015985C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A9BBF11BB168950015985C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A9BC001BB168950015985C /* ViewController.swift in Sources */,
+				16A9BBFE1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodeld in Sources */,
+				16A9BBFB1BB168950015985C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A9BC091BB168960015985C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A9BC141BB168960015985C /* RevivalxSwiftCustomSegmentedControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A9BC0F1BB168960015985C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A9BBF41BB168950015985C /* RevivalxSwiftCustomSegmentedControl */;
+			targetProxy = 16A9BC0E1BB168960015985C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A9BC011BB168950015985C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A9BC021BB168950015985C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16A9BC061BB168950015985C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A9BC071BB168950015985C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A9BC151BB168960015985C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A9BC161BB168960015985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A9BC181BB168960015985C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RevivalxSwiftCustomSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16A9BC191BB168960015985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RevivalxSwiftCustomSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16A9BC1B1BB168960015985C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RevivalxSwiftCustomSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevivalxSwiftCustomSegmentedControl.app/RevivalxSwiftCustomSegmentedControl";
+			};
+			name = Debug;
+		};
+		16A9BC1C1BB168960015985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RevivalxSwiftCustomSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevivalxSwiftCustomSegmentedControl.app/RevivalxSwiftCustomSegmentedControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A9BBF01BB168950015985C /* Build configuration list for PBXProject "RevivalxSwiftCustomSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A9BC151BB168960015985C /* Debug */,
+				16A9BC161BB168960015985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A9BC171BB168960015985C /* Build configuration list for PBXNativeTarget "RevivalxSwiftCustomSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A9BC181BB168960015985C /* Debug */,
+				16A9BC191BB168960015985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A9BC1A1BB168960015985C /* Build configuration list for PBXNativeTarget "RevivalxSwiftCustomSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A9BC1B1BB168960015985C /* Debug */,
+				16A9BC1C1BB168960015985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16A9BBFC1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16A9BBFD1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodel */,
+			);
+			currentVersion = 16A9BBFD1BB168950015985C /* RevivalxSwiftCustomSegmentedControl.xcdatamodel */;
+			path = RevivalxSwiftCustomSegmentedControl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16A9BBED1BB168950015985C /* Project object */;
+}
